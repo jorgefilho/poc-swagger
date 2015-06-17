@@ -1,6 +1,6 @@
 package io.github.jorgefilho.swagger.resource;
 
-import io.github.jorgefilho.swagger.domain.User;
+import io.github.jorgefilho.swagger.domain.UserRequest;
 import io.github.jorgefilho.swagger.resource.constants.ResourcePath;
 
 import java.io.Serializable;
@@ -20,7 +20,7 @@ public class UserResource implements Serializable {
 
 	@POST
 	@Consumes({MediaType.APPLICATION_JSON})	
-	public Response insert(User user){
+	public Response insert(UserRequest user){
 		// TODO: 
 		return Response.ok().build();
 	}

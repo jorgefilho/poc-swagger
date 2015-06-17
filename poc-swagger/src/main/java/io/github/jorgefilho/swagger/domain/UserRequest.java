@@ -7,7 +7,7 @@ import javax.validation.constraints.NotNull;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
 
-public class User implements Serializable {
+public class UserRequest implements Serializable {
 	
 	private static final long serialVersionUID = -2192574823526586460L;
 
