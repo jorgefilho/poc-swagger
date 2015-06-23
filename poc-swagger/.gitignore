@@ -9,6 +9,10 @@
 .settings/
 target/
 
+# IntelliJ
+.idea
+*.iml
+
 
 # Compiled source #
 ###################
